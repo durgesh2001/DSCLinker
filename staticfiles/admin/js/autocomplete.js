@@ -7,7 +7,14 @@
                 data: function(params) {
                     return {
                         term: params.term,
+<<<<<<< HEAD
                         page: params.page
+=======
+                        page: params.page,
+                        app_label: $element.data('app-label'),
+                        model_name: $element.data('model-name'),
+                        field_name: $element.data('field-name')
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
                     };
                 }
             }

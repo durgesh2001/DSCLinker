@@ -140,7 +140,11 @@ input[type="submit"], button {
     }
 
     #changelist .actions select {
+<<<<<<< HEAD
         background: #fff;
+=======
+        background: var(--body-bg);
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     }
 
     #changelist .actions .button {
@@ -157,7 +161,11 @@ input[type="submit"], button {
     }
 
     #changelist-filter {
+<<<<<<< HEAD
         width: 200px;
+=======
+        flex-basis: 200px;
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     }
 
     .change-list .filtered .results,
@@ -166,7 +174,11 @@ input[type="submit"], button {
     .filtered .actions,
 
     #changelist .paginator {
+<<<<<<< HEAD
         border-top-color: #eee;
+=======
+        border-top-color: var(--hairline-color); /* XXX Is this used at all? */
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     }
 
     #changelist .results + .paginator {
@@ -213,7 +225,11 @@ input[type="submit"], button {
     fieldset .fieldBox + .fieldBox {
         margin-top: 10px;
         padding-top: 10px;
+<<<<<<< HEAD
         border-top: 1px solid #eee;
+=======
+        border-top: 1px solid var(--hairline-color);
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     }
 
     textarea {
@@ -399,11 +415,19 @@ input[type="submit"], button {
     .datetime .timezonewarning {
         display: block;
         font-size: 11px;
+<<<<<<< HEAD
         color: #999;
     }
 
     .datetimeshortcuts {
         color: #ccc;
+=======
+        color: var(--body-quiet-color);
+    }
+
+    .datetimeshortcuts {
+        color: var(--border-color); /* XXX Redundant, .datetime span also sets #ccc */
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     }
 
     .form-row .datetime input.vDateField, .form-row .datetime input.vTimeField {
@@ -655,7 +679,11 @@ input[type="submit"], button {
         margin-bottom: -3px;
     }
 
+<<<<<<< HEAD
     form .aligned ul.radiolist li + li {
+=======
+    form .aligned ul.radiolist:not(.inline) li + li {
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         margin-top: 5px;
     }
 
@@ -740,7 +768,11 @@ input[type="submit"], button {
     /* Inlines */
 
     .inline-group[data-inline-type="stacked"] .inline-related {
+<<<<<<< HEAD
         border: 2px solid #eee;
+=======
+        border: 1px solid var(--hairline-color);
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         border-radius: 4px;
         margin-top: 15px;
         overflow: auto;
@@ -750,18 +782,33 @@ input[type="submit"], button {
         box-sizing: border-box;
     }
 
+<<<<<<< HEAD
     .inline-group[data-inline-type="stacked"] .inline-related + .inline-related {
         margin-top: 30px;
     }
 
+=======
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     .inline-group[data-inline-type="stacked"] .inline-related .module {
         padding: 0 10px;
     }
 
+<<<<<<< HEAD
     .inline-group[data-inline-type="stacked"] .inline-related .module .form-row:last-child {
         border-bottom: none;
     }
 
+=======
+    .inline-group[data-inline-type="stacked"] .inline-related .module .form-row {
+        border-top: 1px solid var(--hairline-color);
+        border-bottom: none;
+    }
+
+    .inline-group[data-inline-type="stacked"] .inline-related .module .form-row:first-child {
+        border-top: none;
+    }
+
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
     .inline-group[data-inline-type="stacked"] .inline-related h3 {
         padding: 10px;
         border-top-width: 0;
@@ -791,7 +838,11 @@ input[type="submit"], button {
 
     .inline-group[data-inline-type="stacked"] div.add-row {
         margin-top: 15px;
+<<<<<<< HEAD
         border: 1px solid #eee;
+=======
+        border: 1px solid var(--hairline-color);
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         border-radius: 4px;
     }
 
@@ -885,9 +936,13 @@ input[type="submit"], button {
     }
 
     .login .form-row label {
+<<<<<<< HEAD
         display: block;
         margin: 0 0 5px;
         padding: 0;
+=======
+        margin: 0 0 5px;
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         line-height: 1.2;
     }
 
@@ -895,7 +950,11 @@ input[type="submit"], button {
         padding: 15px 0 0;
     }
 
+<<<<<<< HEAD
     .login br, .login .submit-row label {
+=======
+    .login br {
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         display: none;
     }
 
@@ -963,7 +1022,11 @@ input[type="submit"], button {
     }
 
     .timelist a {
+<<<<<<< HEAD
         background: #fff;
+=======
+        background: var(--body-bg);
+>>>>>>> 8928086a5c5c79a939a5712d9d84e76577bf166d
         padding: 4px;
     }
 
